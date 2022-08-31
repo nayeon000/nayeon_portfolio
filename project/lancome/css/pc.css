@@ -1,0 +1,247 @@
+@charset "utf-8";
+
+.ghost_btn:hover {
+  color: #d51b51;
+}
+
+/* nav */
+
+nav #gnb {
+  position: absolute;
+  left: 30%;
+  display: flex;
+  margin-right: 250px;
+}
+
+nav #gnb li a {
+  margin: 0 30px;
+}
+
+nav h1 {
+  background: none;
+  position: relative;
+}
+
+nav h1 a img {
+  display: block;
+}
+
+nav #gnb li a:hover {
+  color: #d51b51;
+}
+
+nav #registry {
+  position: absolute;
+  right: 1%;
+  display: flex;
+  margin-right: 30px;
+}
+
+nav #registry li a {
+  margin: 0 5px;
+}
+
+nav #registry li a:hover {
+  color: #d51b51;
+}
+
+#menu_bar {
+  display: none;
+}
+
+nav.style {
+  background-color: #000;
+}
+
+nav.style a {
+  color: #fff;
+}
+
+nav.style+main {
+  margin-top: 60px;
+}
+
+.slide_menu {
+  display: none;
+}
+
+/*********** banner ************/
+#my_style {
+  height: 650px;
+  padding-top: 60px;
+}
+
+#my_style .swiper-wrapper .text {
+  margin-top: 180px;
+}
+
+#my_style .swiper-wrapper .text p {
+  font-size: 24px;
+}
+
+#my_style .swiper-wrapper .text h2 {
+  font-size: 48px;
+  letter-spacing: 5px;
+}
+
+#content ul li .txt p span,
+#content ul li .txt h3 span {
+  display: inline;
+}
+
+#content ul li a img {
+  transition: all 0.2s linear;
+}
+
+#content ul li a:hover img {
+  transform: scale(1.1);
+}
+
+/*********** poundation , mascara ************/
+#poundation .txt h2,
+#mascara .txt h2 {
+  font-size: 42px;
+}
+
+#poundation .txt p,
+#mascara .txt p {
+  font-size: 20px;
+}
+
+/*********** new product ************/
+#poundation .txt h2 span,
+#poundation .txt p span,
+#mascara .txt h2 span,
+#mascara .txt p span,
+.new1 .txt h3 span,
+.new2 .txt h3 span {
+  display: block;
+}
+
+#poundation .img,
+#mascara .img {
+  width: 50%;
+}
+
+#poundation .txt,
+#mascara .txt,
+.new1 .txt,
+.new2 .txt {
+  width: 40%;
+  padding-left: 100px;
+}
+
+#mascara .txt {
+  width: 50%;
+  padding-left: 200px;
+}
+
+.new1 .txt h2,
+.new2 .txt h2 {
+  font-size: 44px;
+}
+
+.new1 .txt p,
+.new2 .txt p {
+  font-size: 22px;
+}
+
+.new1 .txt h3,
+.new2 .txt h3 {
+  font-size: 20px;
+}
+
+/*********** rewards ************/
+#reward_banner {
+  padding: 0 100px;
+}
+
+#reward_banner h2 {
+  font-size: 42px;
+}
+
+#reward_banner p {
+  font-size: 20px;
+}
+
+#reward_banner a:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+/*********** product ************/
+#product {
+  overflow: hidden;
+}
+
+#product h2 {
+  margin-bottom: 100px;
+}
+
+#product ul {
+  grid-template-columns: repeat(4, 330px);
+  justify-content: center;
+}
+
+#product ul li {
+  margin-bottom: 40px;
+}
+
+#product ul li p {
+  font-size: 18px;
+}
+
+#product ul li:nth-child(2),
+#product ul li:nth-child(3) {
+  display: block;
+}
+
+#product ul li .img {
+  width: 330px;
+  height: 330px;
+}
+
+#product ul li .img a img {
+  transition: all 0.2s linear;
+}
+
+#product ul li .img a:hover img {
+  transform: scale(1.1);
+}
+
+/*********** instagram ************/
+#instagram ul li:nth-child(even) {
+  display: block;
+}
+
+/* ---- footer ---- */
+#contact ul li {
+  margin-right: 160px;
+}
+
+#contact .portfolio {
+  margin-left: 700px;
+}
+
+/* video */
+#video_wrapper {
+  display: block;
+  width: 100%;
+  height: 600px;
+  margin: 180px auto;
+}
+
+/* 페이드인 work */
+.sa {
+  opacity: 0;
+  transition: all .8s ease;
+}
+
+.sa-up {
+  transform: translate(0, 100px);
+}
+
+.sa.show {
+  opacity: 1;
+  transform: none;
+}
